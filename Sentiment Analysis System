@@ -3,24 +3,24 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "049f3019",
+   "id": "9bf4a613",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2025-04-07T09:01:01.278094Z",
-     "iopub.status.busy": "2025-04-07T09:01:01.277699Z",
-     "iopub.status.idle": "2025-04-07T09:01:02.482647Z",
-     "shell.execute_reply": "2025-04-07T09:01:02.480996Z"
+     "iopub.execute_input": "2025-04-08T07:57:23.773197Z",
+     "iopub.status.busy": "2025-04-08T07:57:23.772820Z",
+     "iopub.status.idle": "2025-04-08T07:57:24.609494Z",
+     "shell.execute_reply": "2025-04-08T07:57:24.608319Z"
     },
     "jupyter": {
      "source_hidden": true
     },
     "papermill": {
-     "duration": 1.212848,
-     "end_time": "2025-04-07T09:01:02.484788",
+     "duration": 0.842778,
+     "end_time": "2025-04-08T07:57:24.611182",
      "exception": false,
-     "start_time": "2025-04-07T09:01:01.271940",
+     "start_time": "2025-04-08T07:57:23.768404",
      "status": "completed"
     },
     "tags": []
@@ -57,23 +57,23 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "832fe08e",
+   "id": "0ad9eb90",
    "metadata": {
     "collapsed": true,
     "execution": {
-     "iopub.execute_input": "2025-04-07T09:01:02.493448Z",
-     "iopub.status.busy": "2025-04-07T09:01:02.492857Z",
-     "iopub.status.idle": "2025-04-07T09:01:23.475494Z",
-     "shell.execute_reply": "2025-04-07T09:01:23.474072Z"
+     "iopub.execute_input": "2025-04-08T07:57:24.618331Z",
+     "iopub.status.busy": "2025-04-08T07:57:24.617855Z",
+     "iopub.status.idle": "2025-04-08T07:57:42.956511Z",
+     "shell.execute_reply": "2025-04-08T07:57:42.955166Z"
     },
     "jupyter": {
      "outputs_hidden": true
     },
     "papermill": {
-     "duration": 20.989166,
-     "end_time": "2025-04-07T09:01:23.477271",
+     "duration": 18.344254,
+     "end_time": "2025-04-08T07:57:42.958551",
      "exception": false,
-     "start_time": "2025-04-07T09:01:02.488105",
+     "start_time": "2025-04-08T07:57:24.614297",
      "status": "completed"
     },
     "tags": []
@@ -96,13 +96,13 @@
       "Collecting feedparser>=5.2.1 (from newspaper3k)\r\n",
       "  Downloading feedparser-6.0.11-py3-none-any.whl.metadata (2.4 kB)\r\n",
       "Collecting tldextract>=2.0.1 (from newspaper3k)\r\n",
-      "  Downloading tldextract-5.1.3-py3-none-any.whl.metadata (11 kB)\r\n",
+      "  Downloading tldextract-5.2.0-py3-none-any.whl.metadata (11 kB)\r\n",
       "Collecting feedfinder2>=0.0.4 (from newspaper3k)\r\n",
       "  Downloading feedfinder2-0.0.4.tar.gz (3.3 kB)\r\n",
       "  Preparing metadata (setup.py) ... \u001b[?25l\u001b[?25hdone\r\n",
       "Collecting jieba3k>=0.35.1 (from newspaper3k)\r\n",
       "  Downloading jieba3k-0.35.1.zip (7.4 MB)\r\n",
-      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m7.4/7.4 MB\u001b[0m \u001b[31m65.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m7.4/7.4 MB\u001b[0m \u001b[31m74.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25h  Preparing metadata (setup.py) ... \u001b[?25l\u001b[?25hdone\r\n",
       "Requirement already satisfied: python-dateutil>=2.5.3 in /usr/local/lib/python3.10/dist-packages (from newspaper3k) (2.9.0.post0)\r\n",
       "Collecting tinysegmenter==0.3 (from newspaper3k)\r\n",
@@ -121,29 +121,29 @@
       "  Downloading requests_file-2.1.0-py2.py3-none-any.whl.metadata (1.7 kB)\r\n",
       "Requirement already satisfied: filelock>=3.0.8 in /usr/local/lib/python3.10/dist-packages (from tldextract>=2.0.1->newspaper3k) (3.17.0)\r\n",
       "Downloading newspaper3k-0.2.8-py3-none-any.whl (211 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m211.1/211.1 kB\u001b[0m \u001b[31m8.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m211.1/211.1 kB\u001b[0m \u001b[31m14.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading cssselect-1.3.0-py3-none-any.whl (18 kB)\r\n",
       "Downloading feedparser-6.0.11-py3-none-any.whl (81 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m81.3/81.3 kB\u001b[0m \u001b[31m3.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
-      "\u001b[?25hDownloading tldextract-5.1.3-py3-none-any.whl (104 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m104.9/104.9 kB\u001b[0m \u001b[31m5.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m81.3/81.3 kB\u001b[0m \u001b[31m5.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[?25hDownloading tldextract-5.2.0-py3-none-any.whl (106 kB)\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m106.3/106.3 kB\u001b[0m \u001b[31m5.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading requests_file-2.1.0-py2.py3-none-any.whl (4.2 kB)\r\n",
       "Building wheels for collected packages: tinysegmenter, feedfinder2, jieba3k, sgmllib3k\r\n",
       "  Building wheel for tinysegmenter (setup.py) ... \u001b[?25l\u001b[?25hdone\r\n",
-      "  Created wheel for tinysegmenter: filename=tinysegmenter-0.3-py3-none-any.whl size=13539 sha256=17970385952c784c47687efeb4ffd278618206a463105bfbeccc9870bbc86cd0\r\n",
+      "  Created wheel for tinysegmenter: filename=tinysegmenter-0.3-py3-none-any.whl size=13539 sha256=9daa6cfb2f4643c6a30f356752151c761d3c147aedfaa4c8f6afad45852dd3d7\r\n",
       "  Stored in directory: /root/.cache/pip/wheels/c8/d6/6c/384f58df48c00b9a31d638005143b5b3ac62c3d25fb1447f23\r\n",
       "  Building wheel for feedfinder2 (setup.py) ... \u001b[?25l\u001b[?25hdone\r\n",
-      "  Created wheel for feedfinder2: filename=feedfinder2-0.0.4-py3-none-any.whl size=3342 sha256=7083f9b40665741ea58f978f51fd8f982852abc5462c18c41d316cd3a566a9fa\r\n",
+      "  Created wheel for feedfinder2: filename=feedfinder2-0.0.4-py3-none-any.whl size=3342 sha256=6711883a2e3d4ec552c1c6ab7a902067c01d03e7506c7a726df50d41b48ba0bf\r\n",
       "  Stored in directory: /root/.cache/pip/wheels/97/02/e7/a1ff1760e12bdbaab0ac824fae5c1bc933e41c4ccd6a8f8edb\r\n",
       "  Building wheel for jieba3k (setup.py) ... \u001b[?25l\u001b[?25hdone\r\n",
-      "  Created wheel for jieba3k: filename=jieba3k-0.35.1-py3-none-any.whl size=7398379 sha256=175917f2769cebe3bea83ec979887d0187ed529e23b42152f1ad139b4b1e8e5b\r\n",
+      "  Created wheel for jieba3k: filename=jieba3k-0.35.1-py3-none-any.whl size=7398379 sha256=626110087e02a954c4fbc62cd422c8e92268928f3793425a4ce442505df3a8b3\r\n",
       "  Stored in directory: /root/.cache/pip/wheels/7a/c4/0c/12a9a314ecac499456c4c3b2fcc2f635a3b45a39dfbd240299\r\n",
       "  Building wheel for sgmllib3k (setup.py) ... \u001b[?25l\u001b[?25hdone\r\n",
-      "  Created wheel for sgmllib3k: filename=sgmllib3k-1.0.0-py3-none-any.whl size=6047 sha256=f2ac24ba5db59234fc3f3631a8ddb02471919109a4c602549971c00971661e18\r\n",
+      "  Created wheel for sgmllib3k: filename=sgmllib3k-1.0.0-py3-none-any.whl size=6047 sha256=ba2c5f74c704ae7de06a5f263e280d0ed53cd77923048a652f6645e735fa7ddf\r\n",
       "  Stored in directory: /root/.cache/pip/wheels/f0/69/93/a47e9d621be168e9e33c7ce60524393c0b92ae83cf6c6e89c5\r\n",
       "Successfully built tinysegmenter feedfinder2 jieba3k sgmllib3k\r\n",
       "Installing collected packages: tinysegmenter, sgmllib3k, jieba3k, feedparser, cssselect, requests-file, feedfinder2, tldextract, newspaper3k\r\n",
-      "Successfully installed cssselect-1.3.0 feedfinder2-0.0.4 feedparser-6.0.11 jieba3k-0.35.1 newspaper3k-0.2.8 requests-file-2.1.0 sgmllib3k-1.0.0 tinysegmenter-0.3 tldextract-5.1.3\r\n",
+      "Successfully installed cssselect-1.3.0 feedfinder2-0.0.4 feedparser-6.0.11 jieba3k-0.35.1 newspaper3k-0.2.8 requests-file-2.1.0 sgmllib3k-1.0.0 tinysegmenter-0.3 tldextract-5.2.0\r\n",
       "Note: you may need to restart the kernel to use updated packages.\n"
      ]
     }
@@ -155,23 +155,23 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "da0c0c3c",
+   "id": "34c903ab",
    "metadata": {
     "collapsed": true,
     "execution": {
-     "iopub.execute_input": "2025-04-07T09:01:23.488102Z",
-     "iopub.status.busy": "2025-04-07T09:01:23.487738Z",
-     "iopub.status.idle": "2025-04-07T09:01:28.438214Z",
-     "shell.execute_reply": "2025-04-07T09:01:28.436560Z"
+     "iopub.execute_input": "2025-04-08T07:57:42.968641Z",
+     "iopub.status.busy": "2025-04-08T07:57:42.968317Z",
+     "iopub.status.idle": "2025-04-08T07:57:47.439295Z",
+     "shell.execute_reply": "2025-04-08T07:57:47.437870Z"
     },
     "jupyter": {
      "outputs_hidden": true
     },
     "papermill": {
-     "duration": 4.958506,
-     "end_time": "2025-04-07T09:01:28.440701",
+     "duration": 4.478073,
+     "end_time": "2025-04-08T07:57:47.441119",
      "exception": false,
-     "start_time": "2025-04-07T09:01:23.482195",
+     "start_time": "2025-04-08T07:57:42.963046",
      "status": "completed"
     },
     "tags": []
@@ -198,22 +198,22 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "fcf7bb71",
+   "id": "57e8fe3c",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-07T09:01:28.452299Z",
-     "iopub.status.busy": "2025-04-07T09:01:28.451852Z",
-     "iopub.status.idle": "2025-04-07T09:01:30.120888Z",
-     "shell.execute_reply": "2025-04-07T09:01:30.119534Z"
+     "iopub.execute_input": "2025-04-08T07:57:47.451704Z",
+     "iopub.status.busy": "2025-04-08T07:57:47.451381Z",
+     "iopub.status.idle": "2025-04-08T07:57:49.166487Z",
+     "shell.execute_reply": "2025-04-08T07:57:49.165310Z"
     },
     "jupyter": {
      "source_hidden": true
     },
     "papermill": {
-     "duration": 1.677436,
-     "end_time": "2025-04-07T09:01:30.123236",
+     "duration": 1.72234,
+     "end_time": "2025-04-08T07:57:49.168160",
      "exception": false,
-     "start_time": "2025-04-07T09:01:28.445800",
+     "start_time": "2025-04-08T07:57:47.445820",
      "status": "completed"
     },
     "tags": []
@@ -255,23 +255,23 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "050b9bea",
+   "id": "c8a7a7a8",
    "metadata": {
     "collapsed": true,
     "execution": {
-     "iopub.execute_input": "2025-04-07T09:01:30.134871Z",
-     "iopub.status.busy": "2025-04-07T09:01:30.134288Z",
-     "iopub.status.idle": "2025-04-07T09:01:30.187374Z",
-     "shell.execute_reply": "2025-04-07T09:01:30.185490Z"
+     "iopub.execute_input": "2025-04-08T07:57:49.178654Z",
+     "iopub.status.busy": "2025-04-08T07:57:49.178145Z",
+     "iopub.status.idle": "2025-04-08T07:57:49.232116Z",
+     "shell.execute_reply": "2025-04-08T07:57:49.231063Z"
     },
     "jupyter": {
      "outputs_hidden": true
     },
     "papermill": {
-     "duration": 0.062646,
-     "end_time": "2025-04-07T09:01:30.191077",
+     "duration": 0.062083,
+     "end_time": "2025-04-08T07:57:49.234881",
      "exception": false,
-     "start_time": "2025-04-07T09:01:30.128431",
+     "start_time": "2025-04-08T07:57:49.172798",
      "status": "completed"
     },
     "tags": []
@@ -612,19 +612,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "96bc66aa",
+   "id": "55a3f1f3",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-07T09:01:30.204919Z",
-     "iopub.status.busy": "2025-04-07T09:01:30.204507Z",
-     "iopub.status.idle": "2025-04-07T09:01:30.248963Z",
-     "shell.execute_reply": "2025-04-07T09:01:30.247802Z"
+     "iopub.execute_input": "2025-04-08T07:57:49.247165Z",
+     "iopub.status.busy": "2025-04-08T07:57:49.246628Z",
+     "iopub.status.idle": "2025-04-08T07:57:49.288936Z",
+     "shell.execute_reply": "2025-04-08T07:57:49.287969Z"
     },
     "papermill": {
-     "duration": 0.053996,
-     "end_time": "2025-04-07T09:01:30.251163",
+     "duration": 0.049869,
+     "end_time": "2025-04-08T07:57:49.290396",
      "exception": false,
-     "start_time": "2025-04-07T09:01:30.197167",
+     "start_time": "2025-04-08T07:57:49.240527",
      "status": "completed"
     },
     "tags": []
@@ -715,13 +715,13 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "fcb72886",
+   "id": "f31c8885",
    "metadata": {
     "papermill": {
-     "duration": 0.005768,
-     "end_time": "2025-04-07T09:01:30.263024",
+     "duration": 0.005105,
+     "end_time": "2025-04-08T07:57:49.301027",
      "exception": false,
-     "start_time": "2025-04-07T09:01:30.257256",
+     "start_time": "2025-04-08T07:57:49.295922",
      "status": "completed"
     },
     "tags": []
@@ -765,14 +765,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 32.962977,
-   "end_time": "2025-04-07T09:01:30.990912",
+   "duration": 28.911984,
+   "end_time": "2025-04-08T07:57:49.926633",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2025-04-07T09:00:58.027935",
+   "start_time": "2025-04-08T07:57:21.014649",
    "version": "2.6.0"
   }
  },
